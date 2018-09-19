@@ -68,14 +68,14 @@ public class MainActivity extends AppCompatActivity {
         final Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
-        int a = 0;
+       /* int a = 0;
         for (;a<5;a++,a--){
             if(a<=0)
                 a=1;
             else
                 a++;
         }
-        System.out.print(a);
+        System.out.print(a);*/
 
         InitView();
         AddData();
